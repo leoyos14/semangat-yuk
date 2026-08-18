@@ -28,3 +28,18 @@ body {
     padding-bottom: 20px;
     margin: 0 0 20px;
 }
+
+input, select {
+    width: 100%;
+    padding: 15px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+}
+
+input[type=submit] {
+    background-color: #038ade;
+    border: none;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
