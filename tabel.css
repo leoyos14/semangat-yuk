@@ -1,0 +1,40 @@
+.judul {
+    color: #555;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 15px;
+}
+
+.table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.table th, table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.table th {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.tombol {
+    display: inline-block;
+    max-width: 150px;
+    padding: 15px 30px;
+    color: #fff;
+    text-decoration: none;
+    background: #038ade;
+    cursor: pointer;
+}
+
+.tombol.edit, .tombol.hapus {
+    padding: 10px 15px;
+    font-size: 12px;
+}
+
+.tombol.hapus {
+    background: #fc4c4c;
+}
